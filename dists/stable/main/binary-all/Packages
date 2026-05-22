@@ -1,0 +1,17 @@
+Package: catdir
+Version: 1.0.0
+Architecture: all
+Maintainer: awesomeshot5051 englandtechnologies@gmail.com
+Depends: bash, coreutils, findutils | fd-find | ripgrep, jq, tree
+Filename: pool/main/catdir_1.0.0_all.deb
+Size: 4808
+MD5sum: 92f142ae9a7d99a607be14189a3040ed
+SHA1: 3317ff074b8390888d51ac83859ac45f9e509403
+SHA256: 679f8f5470043309e24212e09a1053d7b792850d390f391f7404a14a1cba6fc6
+Section: utils
+Priority: optional
+Description: A robust directory-to-context text aggregator.
+ catdir crawls a directory, filters out binary files, respects depths/sizes,
+ and outputs a cleanly structured layout or JSON stream. Ideal for gathering
+ codebase context for analysis or documentation.
+
